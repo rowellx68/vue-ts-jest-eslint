@@ -1,5 +1,5 @@
 <template>
-  <h1>Hello, {{ props.name }}</h1>
+  <h1>Hello, {{ name }}</h1>
 </template>
 
 <script setup lang="ts">
@@ -7,5 +7,5 @@ interface GreetingProps {
   name: string
 }
 
-const props = defineProps<GreetingProps>()
+defineProps<GreetingProps>()
 </script>
