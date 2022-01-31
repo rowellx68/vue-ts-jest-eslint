@@ -9,7 +9,9 @@ export const useLoginStore = defineStore('login', {
   },
   actions: {
      login() {
-      this.$patch({ loggedIn: true, name: 'Bob Ross' })
+      setTimeout(() => {
+        this.$patch({ loggedIn: true, name: 'Bob Ross' })
+      }, 2000)
     },
   },
 })

@@ -1,7 +1,15 @@
 <template>
-  <greeting name="Bob Ross" />
+  <nav-bar />
+  <main class="max-w-8xl mx-auto">
+    <div class="py-4 lg:px-8 mx-4 lg:mx-0">
+      <!-- router content goes here -->
+      <button>
+        Login
+      </button>
+    </div>
+  </main>
 </template>
 
 <script setup lang="ts">
-import Greeting from 'components/Greeting.vue'
+import NavBar from 'components/NavBar.vue'
 </script>
