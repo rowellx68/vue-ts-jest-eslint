@@ -2,10 +2,7 @@
   <nav-bar />
   <main class="max-w-8xl mx-auto">
     <div class="py-4 lg:px-8 mx-4 lg:mx-0">
-      <!-- router content goes here -->
-      <button>
-        Login
-      </button>
+      <router-view />
     </div>
   </main>
 </template>

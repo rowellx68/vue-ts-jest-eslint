@@ -22,5 +22,9 @@ const login = () => {
 
 store.$subscribe(() => {
   // redirect once logged in
+
+  if (store.loggedIn) {
+    router.push({ name: 'booking-page' })
+  }
 })
 </script>
